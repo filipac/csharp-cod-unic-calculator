@@ -37,9 +37,9 @@ namespace hardwareID
             //MessageBox.Show("ContentRendered");
         }
 
-        private void LaunchMahAppsOnGitHub(object sender, RoutedEventArgs e)
+        private void DeschideGithub(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/MahApps/MahApps.Metro");
+            System.Diagnostics.Process.Start("https://github.com/filipac/csharp-cod-unic-calculator");
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

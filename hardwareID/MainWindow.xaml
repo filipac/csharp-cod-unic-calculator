@@ -5,7 +5,7 @@
         Title="Codul unic al calculatorului" Height="392.5" Width="570">
     <controls:MetroWindow.WindowCommands>
         <controls:WindowCommands>
-            <Button Content="vezi codul pe github" Click="LaunchMahAppsOnGitHub"/>
+            <Button Content="vezi codul pe github" Click="DeschideGithub"/>
         </controls:WindowCommands>
     </controls:MetroWindow.WindowCommands>
     <controls:MetroContentControl>
@@ -41,11 +41,11 @@
                                VerticalAlignment="Center"
                                HorizontalAlignment="Right" Margin="0,6,29,8" Grid.ColumnSpan="2" />
 
-                        <Button Content="Button" 
-                                Margin="6,0,2,5"
+                        <Button Content="Vezi id-ul unic" 
+                                Margin="6,0,-250,-123"
                                 Grid.Column="1"
                                 VerticalAlignment="Bottom" 
-                                Style="{DynamicResource SquareButtonStyle}" Click="Button_Click" Grid.ColumnSpan="2"/>
+                                Style="{DynamicResource SquareButtonStyle}" Click="Button_Click" Grid.ColumnSpan="4" Height="174" Grid.RowSpan="9" FontSize="36"/>
 
                         <StackPanel Grid.Row="5" Grid.Column="1" Margin="6,5,2,5" Grid.ColumnSpan="2"/>
                     </Grid>
